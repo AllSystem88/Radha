@@ -76,6 +76,12 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
+# Bot introduction messages - These can be customized as per your preference
+AYU = [
+    "💞", "🦋", "🔍", "🧪", "🦋", "⚡️", "🔥", "🦋", "🎩", "🌈", "🍷", "🥂", "🦋", "🥃", "🥤", "🕊️",
+    "💞", "🐝", "🕊️", "🧪", "🕊️", "🔎", "🦋", "🎶", "🪄", "💌", "🌡️", "💞", "🧨"
+]
+
 
 BANNED_USERS = filters.user()
 adminlist = {}
@@ -90,10 +96,10 @@ START_IMG_URL = getenv(
 )
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/8ixlzx.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/546yuv.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/8ixlzx.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/cfv24b.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
 STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
