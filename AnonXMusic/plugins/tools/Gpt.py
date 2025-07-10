@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
 
-API_KEY = "933fcfa9a99dd219f960ba6ba29f294419b4104bce4ec9525f2edfcc3f47064f"
+API_KEY = "905409e3914819c7044182414728806a68a20f3617734d86516968e59547870e"
 
 BASE_URL = "https://api.together.xyz/v1/chat/completions"
 
