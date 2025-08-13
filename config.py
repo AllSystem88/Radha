@@ -20,7 +20,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
 
 # API KEY - here
-API_KEY = getenv("API_KEY", "86278b_ssueajhR0D5XCET9n3HGIr0y57w2BZeR")
+API_KEY = getenv("API_KEY", None) #for api contact @its_deep_ydv
 
 # For - downloads
 DOWNLOADS_DIR = "downloads"
