@@ -16,6 +16,15 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
+# API URL - here
+API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
+
+# API KEY - here
+API_KEY = getenv("API_KEY", "86278b_ssueajhR0D5XCET9n3HGIr0y57w2BZeR")
+
+# For - downloads
+DOWNLOADS_DIR = "downloads"
+
 # Other vaes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
@@ -33,9 +42,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DeepVikky88/RoyalQueen",
+    "https://github.com/DeepVikky88/Radha",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
@@ -76,6 +85,12 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
+# Bot introduction messages - These can be customized as per your preference
+AYU = [
+    "💞", "🦋", "🔍", "🧪", "🦋", "⚡️", "🔥", "🦋", "🎩", "🌈", "🍷", "🥂", "🦋", "🥃", "🥤", "🕊️",
+    "💞", "🐝", "🕊️", "🧪", "🕊️", "🔎", "🦋", "🎶", "🪄", "💌", "🌡️", "💞", "🧨"
+]
+
 
 BANNED_USERS = filters.user()
 adminlist = {}
@@ -90,12 +105,12 @@ START_IMG_URL = getenv(
 )
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/8ixlzx.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/546yuv.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/8ixlzx.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/cfv24b.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/lc7cye.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/lc7cye.jpg"
 STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
